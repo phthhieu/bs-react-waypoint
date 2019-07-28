@@ -1,0 +1,29 @@
+{
+  "name": "bs-react-waypoint",
+  "reason": {
+    "react-jsx": 3
+  },
+  "version": "0.0.0",
+  "sources": [
+    {
+      "dir": "examples",
+      "type": "dev"
+    },
+    {
+      "dir" : "src",
+      "subdirs" : true
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "warnings": {
+    "error": "+5+8"
+  },
+  "refmt": 3
+}

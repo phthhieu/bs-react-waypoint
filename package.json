@@ -1,0 +1,37 @@
+{
+  "name": "bs-react-waypoint",
+  "version": "0.0.1",
+  "description": "Bucklescript bindings for react-waypoint",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phthhieu/bs-react-waypoint"
+  },
+  "keywords": [
+    "react",
+    "reasonreact",
+    "reasonml",
+    "bucklescript",
+    "react-waypoint"
+  ],
+  "license": "MIT",
+  "author": "Hieu Pham",
+  "bugs": {
+    "url": "https://github.com/phthhieu/bs-react-waypoint/issues"
+  },
+  "homepage": "https://github.com/phthhieu/bs-react-waypoint#README",
+  "scripts": {
+    "start": "bsb -clean -make-world -w",
+    "dev": "parcel ./examples/index.html"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.6",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.12.3",
+    "reason-react": "^0.7.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-waypoint": "^9.0.2"
+  }
+}
