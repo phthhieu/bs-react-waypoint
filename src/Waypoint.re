@@ -20,6 +20,7 @@ external make:
     ~horizontal: bool=?,
     ~topOffset: OffsetProp.t=?,
     ~bottomOffset: OffsetProp.t=?,
+    ~scrollableAncestor: ScrollableAncestorProp.t=?,
     ~fireOnRapidScroll: bool=?,
     ~debug: bool=?,
     ~children: React.element=?
