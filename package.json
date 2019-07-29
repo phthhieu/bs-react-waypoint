@@ -1,6 +1,6 @@
 {
   "name": "bs-react-waypoint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bucklescript bindings for react-waypoint",
   "main": "index.js",
   "repository": {
