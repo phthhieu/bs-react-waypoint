@@ -1,6 +1,6 @@
 {
   "name": "bs-react-waypoint",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bucklescript bindings for react-waypoint",
   "main": "index.js",
   "repository": {
@@ -27,7 +27,7 @@
   "devDependencies": {
     "bs-platform": "^5.0.6",
     "bsb-js": "^1.1.7",
-    "parcel-bundler": "^1.12.3",
+    "parcel-bundler": "^1.12.4",
     "reason-react": "^0.7.0"
   },
   "dependencies": {
